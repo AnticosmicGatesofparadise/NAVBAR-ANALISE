@@ -1,0 +1,29 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+.nav .nav-link.active {
+    color: rgb(51, 51, 51);
+    background-color: #fff;
+}
+
+.navbar  {
+    background-color: rgb(51, 51, 51);
+}
+
+.nav .nav-link,
+h1 {
+    color: #fff;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: cursive;
+}
