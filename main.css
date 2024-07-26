@@ -2,7 +2,7 @@ body {
     font-family: roboto, sans-serif;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     color: rgb(51, 51, 51);
     background-color: #fff;
 }
@@ -16,7 +16,9 @@ h1 {
     color: #fff;
 }
 
-h1 {
+h1,
+h2,
+.pbli {
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -25,5 +27,45 @@ h1 {
 }
 
 .section-title {
-    font-family: cursive;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.section-title span{
+    background-color: #505050;
+    color: #fff;
+}
+
+.nav-instr .nav-link {
+    color: #fff;
+}
+
+.nav-instr .nav-link.active {
+    background-color: #ffffff;
+    color: #505050;
+}
+
+.carousel-item {
+    height: 550px;
+}
+
+#instrumentos,
+#sobre-a-loja,
+#fale-conosco button {
+    background-color: #505050;
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item{
+        height: 280px;
+    }
 }
